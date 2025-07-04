@@ -1,0 +1,90 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#f5f5f5",
+  },
+  backButton: {
+    position: "absolute",
+    top: 60,
+    left: 20,
+    zIndex: 10,
+    backgroundColor: "#fff",
+    borderRadius: 25,
+    width: 50,
+    height: 50,
+    justifyContent: "center",
+    alignItems: "center",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.2,
+    shadowRadius: 4,
+    elevation: 5,
+  },
+  scrollContent: {
+    flexGrow: 1,
+  },
+  imageContainer: {
+    position: "relative",
+    height: 400,
+  },
+  characterImage: {
+    width: "100%",
+    height: "100%",
+  },
+  favoriteButton: {
+    position: "absolute",
+    bottom: 20,
+    right: 20,
+    backgroundColor: "#fff",
+    borderRadius: 30,
+    width: 60,
+    height: 60,
+    justifyContent: "center",
+    alignItems: "center",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.2,
+    shadowRadius: 4,
+    elevation: 5,
+  },
+  infoContainer: {
+    backgroundColor: "#fff",
+    borderTopLeftRadius: 25,
+    borderTopRightRadius: 25,
+    marginTop: -25,
+    paddingTop: 30,
+    paddingHorizontal: 20,
+    paddingBottom: 40,
+    flex: 1,
+  },
+  characterName: {
+    fontSize: 32,
+    fontWeight: "bold",
+    color: "#333",
+    textAlign: "center",
+    marginBottom: 30,
+  },
+  infoRow: {
+    flexDirection: "row",
+    marginBottom: 16,
+    alignItems: "center",
+  },
+  label: {
+    fontSize: 16,
+    color: "#666",
+    minWidth: 100,
+  },
+  value: {
+    fontSize: 16,
+    color: "#333",
+    flex: 1,
+  },
+});
